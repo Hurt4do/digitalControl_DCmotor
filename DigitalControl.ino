@@ -123,7 +123,7 @@ void setup() {
  * @brief Bucle principal que ejecuta el control de posición.
  */
 void loop() {
-  delay(500);
+  delay(10);
   encoderPulses = 0;
   unsigned long currentMillis = millis();
 
